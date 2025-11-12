@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arohi_Ayurveda</title>
+
+  <!-- CSS -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="new.css">
+
+  <!-- JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+  <!-- Navbar -->
+  <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <div class="container-fluid ">
+      <div class="d-flex justify-content-between align-items-center w-100">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/01/Group-59.png"
+               class="img-fluid" alt="logo" style="max-height:60px; width:auto;">
+        </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">AboutUs</a></li>
+
+            <!-- Service sector dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="service.html" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="service.html">Ayurvedic Massage</a></li>
+                <li><a class="dropdown-item" href="#">Herbal Treatments</a></li>
+                <li><a class="dropdown-item" href="#">Detox Therapy</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#">Services</a></li> -->
+            <!-- <li class="nav-item"><a class="nav-link" href="#specialities">Specialities</a></li> -->
+
+            <!-- Specilities menu dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="specialitiesDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Specialities
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="specialitiesDropdown" >
+                <li><a class="dropdown-item" href="#">Diabetes</a></li>
+                <li><a class="dropdown-item" href="#">Rejuvenation  Detoxification</a></li>
+                <li><a class="dropdown-item" href="#">Joint Pain</a></li>
+                <li><a class="dropdown-item" href="#">Yoga</a></li>
+                <li><a class="dropdown-item" href="#">Nutrition</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item"><a class="nav-link" href="#">Centre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ContactUs</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section 1   INTRO USING CAROUSEL WITH IMG AND CAPTION-->
+
+  <div id="carouselExampleCaptions" class="carousel slide bg-light" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/mainslider1.jpg" class="d-block w-100 img-fluid"
+          alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 text-center">
+
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://aarohiayurveda.com/wp-content/uploads/2025/01/ayurveda_slider_1.jpg"
+          class="d-block w-100 img-fluid" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100 text-center">
+          <h1 class="fw-bold text-white carousel-title ">AAROHI EMBRACING THE HEALING POWER OF AYURVEDA</h1>
+
+        </div>
+
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Section 2  PROFILE USING DIV CONTAINER-->
+  <section class="py-5 about-section">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 text-center">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/aarohi.jpg" alt="Person"
+            class="img-fluid rounded-3 shadow">
+
+        </div>
+
+        <div class="col-md-6">
+          <h2 class="text-success">Dr.Rakshita Jain BAMS MD(Ayu)</h2><br>
+          <h2 class="fw-bold mb-3">Welcome To Arohi Ayurveda</h2>
+          <p class="lead">
+            Nestles in Mysuru, Aarohi Ayurveda offers a welcoming space for those on a journey to wellness. Here,
+            ancient healing practices come together with modern needs, creating a unique atmosphere for balance and
+            renewal. Under the expert care of Dr Rakshitha Jain S B, patients find not just treatment but a path to true
+            transformation. At Aarohi, it isn’t just about healing the body, it is about nurturing the whole person
+            including mind, body and spirit.
+          </p>
+          <a href="about.html" class="btn btn-success mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3 SPECIALITIES USING CAROUSEL SLIDER WITH IMAGE -->
+  <!-- Specialities Section -->
+  <section id="specialities" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4 fw-bold">Our Specialities</h2>
+
+      <!-- Bootstrap Carousel -->
+      <div id="specialityCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <!-- 1st Slide -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-3 col-sm-6 mb-4" >
+                <a href="#" class="speciality-link d-block text-decoration-none">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="https://www.shutterstock.com/image-vector/blood-sugar-icon-black-line-600nw-2491014205.jpg"
+                      class="card-img-top speciality-img" alt="Therapy">
+                    <div  class="card-body">
+                      <h5 class="card-title text-dark">Diabetes</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="speciality-link d-block text-decoration-none">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="https://media.istockphoto.com/id/1000426404/vector/metabolism-icon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=qh6Sikt7mjpp_DsiXYGhUYWTLNYutAV1BZFg07_pPa0="
+                      class="card-img-top speciality-img" alt="Detox">
+                    <div class="card-body">
+                      <h5  id="1" class="card-title text-dark">Rjuvenation & Detoxification</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="speciality-link d-block text-decoration-none">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="https://www.shutterstock.com/image-vector/arthritis-knee-joint-pain-pixel-600nw-2217736745.jpg"
+                      class="card-img-top speciality-img" alt="Massage">
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Joint Pain</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd Slide -->
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="speciality-link d-block text-decoration-none">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="https://static.vecteezy.com/system/resources/previews/004/332/133/non_2x/yoga-position-linear-icon-thin-line-illustration-yoga-class-contour-symbol-isolated-outline-drawing-vector.jpg"
+                      class="card-img-top speciality-img" alt="Yoga">
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Yoga</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="speciality-link d-block text-decoration-none">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="https://thumbs.dreamstime.com/b/black-white-line-art-illustration-healthy-food-bowl-rice-vegetables-399965450.jpg"
+                      class="card-img-top speciality-img" alt="Nutrition">
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Nutrition</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#" class="speciality-link d-block text-decoration-none">
+                  <div class="card border-0 shadow-sm">
+                    <img
+                      src="https://www.shutterstock.com/image-vector/vintage-retro-mortar-pestle-leaf-600nw-2446754577.jpg"
+                      class="card-img-top speciality-img" alt="Panchakarma">
+                    <div class="card-body">
+                      <h5 class="card-title text-dark">Panchakarma</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#specialityCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#specialityCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4 APPOINTMENT SECTION USING FORMS-->
+
+  <section id="appointment" class="appointment-section">
+    <div class="appointment-form">
+      <h2>Book an Appointment</h2>
+      <form>
+
+        <div class="input-row">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Phone " required>
+        </div>
+
+
+        <div class="input-row">
+          <input type="date" required>
+          <input type="time" required>
+        </div>
+
+
+        <textarea rows="4" placeholder="Your Message"></textarea><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!--Section 5  TESTIMONIALS USING CAROUSEL SLIDE WITH TEXT -->
+  <section id="testimonials" class="py-5">
+    <div class="container text-center text-white">
+      <h2 class="mb-4 fw-bold">Testimonials</h2>
+
+      <!-- Bootstrap Carousel -->
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <p class="lead">"The service is amazing! I loved the experience."</p>
+            <h5>Pranamya Jaiswal</h5>
+          </div>
+
+          <div class="carousel-item">
+            <p class="lead">"Highly professional and very responsive Heam!"</p>
+            <h5>Vaishnavi Rajashekaran</h5>
+          </div>
+
+          <div class="carousel-item">
+            <p class="lead">"They exceeded my expectations. Totally recommend!"</p>
+            <h5>- Ananya Mahadevan</h5>
+          </div>
+
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section 6  GALLERY SECTION USING CONTAINER-->
+  <section id="gallery" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4"> Gallery</h2>
+      <div class="row g-4">
+        <!-- Row 1 -->
+        <div class="col-md-4 col-sm-6">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/IMG-20250412-WA0043-768x511.jpg"
+            class="img-fluid gallery-img" alt="Gallery Image 1">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/IMG-20250412-WA0042-768x511.jpg"
+            class="img-fluid gallery-img" alt="Gallery Image 2">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/IMG-20250412-WA0041-768x511.jpg"
+            class="img-fluid gallery-img" alt="Gallery Image 3">
+        </div>
+
+        <!-- Row 2 -->
+        <div class="col-md-4 col-sm-6">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/IMG-20250412-WA0040-768x511.jpg"
+            class="img-fluid gallery-img" alt="Gallery Image 4">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/IMG-20250412-WA0039-768x511.jpg"
+            class="img-fluid gallery-img" alt="Gallery Image 5">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <img src="https://aarohiayurveda.com/wp-content/uploads/2025/04/IMG-20250412-WA0036-768x511.jpg"
+            class="img-fluid gallery-img" alt="Gallery Image 6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section7 BLOG USING DEFAULT CARDS-->
+
+  <section id="blog" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Latest Blogs</h2>
+      <div class="row g-4">
+
+        <!-- Blog Card 1 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card blog-card h-100">
+            <img
+              src="https://www.shutterstock.com/image-photo/bottle-sandalwood-essential-oil-pieces-260nw-1015884313.jpg"
+              class="card-img-top" alt="Blog Image 1">
+            <div class="card-body">
+              <h5 class="card-title">How the Yoga works</h5>
+              <p class="card-text">Discover simple strategies to stay focused and get more done every day.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card blog-card h-100">
+            <img
+              src="https://www.shutterstock.com/image-photo/bottle-sandalwood-essential-oil-pieces-260nw-1015884313.jpg"
+              class="card-img-top" alt="Blog Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Top 5 Auyrvedic content of 2025</h5>
+              <p class="card-text">Explore more about Ayurveda this year.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 3 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card blog-card h-100">
+            <img
+              src="https://www.shutterstock.com/image-photo/bottle-sandalwood-essential-oil-pieces-260nw-1015884313.jpg"
+              class="card-img-top" alt="Blog Image 3">
+            <div class="card-body">
+              <h5 class="card-title">The Power of Consistent Organics</h5>
+              <p class="card-text">Why continuous Organics helps you stay healthy in your life.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8 DETAILS USING LISTS -->
+  <section id="details" class=" py-5 bg-light">
+    <div class="container py-5">
+      <div class="row">
+
+        <!-- Logo & Info -->
+        <div class="col-lg-4 mb-4 ">
+          <a class="d-inline-flex align-items-center mb-3 link-dark text-decoration-none" href="#">
+            <img src="https://aarohiayurveda.com/wp-content/uploads/2025/01/Group-59.png" alt="Aarohi Ayurveda Logo"
+              width="200" class="me-2">
+            <span class="fs-4 fw-bold text-success">Aarohi Ayurveda</span>
+          </a>
+          <p class="lead">
+            Nestles in Mysuru, Aarohi Ayurveda offers a welcoming space for those on a journey to wellness. Here,
+            ancient healing practices come together with modern needs, creating a unique atmosphere for balance and
+            renewal.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-6 col-lg-4 mb-4 ms-lg-n3">
+          <h5 class="fw-bold text-success">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="new.html" class="text-decoration-none text-dark">Home</a></li>
+            <li class="mb-2"><a href="about.html" class="text-decoration-none text-dark">About Us</a></li>
+            <li class="mb-2"><a href="service.html" class="text-decoration-none text-dark">Services</a></li>
+            <li class="mb-2"><a href="#specialities" class="text-decoration-none text-dark">Specialities</a></li>
+            <li class="mb-2"><a href="#appointment" class="text-decoration-none text-dark">Centre</a></li>
+            <li class="mb-2"><a href="#gallery" class="text-decoration-none text-dark">Gallery</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Specialities -->
+        <div class="col-6 col-lg-4 mb-4 ms-lg-n3">
+          <h5 class="fw-bold text-success">Specialities</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Rejuvenation & Detoxification</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Joint Pain</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Menstrual & Reproductive Disorder</a>
+            </li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Weight Management</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Hair & Skin Care</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Skin Diseases</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Respiratory Diseases</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-dark">Diabetes</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section 9 FOOTER -->
+  <footer>
+    <h5>Copyright by Arohi Ayurveda|All rights reserved</h5>
+  </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+</html>
